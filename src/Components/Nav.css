@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #122620;
+    padding: 1px 5px; 
+    width: 100%;
+    z-index: 1000;
+    position: fixed; 
+    top: 0; 
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px; 
+    font-size: 18px; 
+    color: #F4EBD0;
+    font-family: Helvetica, sans-serif;
+    transition: color ease;
+    cursor: pointer;
+
+}
+
+.navbar a:hover{
+    background-color: #D6AD60;
+    color: #F4EBD0
+}
+
+body {
+    margin-top: 0;
+    margin: 0; 
+    padding: 0; 
+    padding-top: 60px;
+}
