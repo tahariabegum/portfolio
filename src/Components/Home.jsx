@@ -1,5 +1,6 @@
 import profilePic from './profilepic.jpg'
 import {useNavigate} from 'react-router-dom'
+import resume from './Taharia.pdf'
 import './Home.css'
 
 
@@ -24,7 +25,7 @@ export default function Home () {
                         <a href = 'https://github.com/tahariabegum'> GitHub </a>
                     </button>
                     <button className = 'home-buttons'> 
-                        Resume 
+                        <a href = {resume}> Resume </a>
                     </button>
                 </div> 
             </div>
