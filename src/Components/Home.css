@@ -11,6 +11,13 @@ img {
     justify-content: center;
     align-items: center;
     font-family: Helvetica, sans-serif;
+    margin-top: 90px; 
+}
+
+.intro-content {
+    display: flex; 
+    flex-direction: column;
+    margin: 20px; 
 }
 
 .buttons {
@@ -25,7 +32,8 @@ img {
     background-color: #122620 ;
     color: #F4EBD0;
     padding: 10px 20px; 
-    margin: 20px;
+    margin-right: 20px; 
+    /* margin: 20px; */
     border: none; 
     text-align: center;
     font-family: Helvetica, sans-serif;

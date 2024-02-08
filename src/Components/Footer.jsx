@@ -1,10 +1,10 @@
-import './Nav.css'
+// import './Footer.css'
 
-export default function Footer() {
+// export default function Footer() {
 
-    return (
-        <div className = 'navbar'>
-
-        </div>
-    )
-}
+//     return (
+//         <div className = 'footer'>
+//             <img src = 'linkedinlogo.png' />
+//         </div>
+//     )
+// }

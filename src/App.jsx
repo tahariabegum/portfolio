@@ -2,7 +2,7 @@ import { useState } from 'react'
 import {Route, Routes} from 'react-router-dom'
 
 import Nav from './Components/Nav'
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
 import Project from './Components/Project'
 import Home from './Components/Home'
 import AboutMe from './Components/AboutMe'
@@ -20,7 +20,7 @@ function App() {
           <Route path = '/aboutme' element = { <AboutMe /> } />
           <Route path = '/project' element = { <Project /> } />
         </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

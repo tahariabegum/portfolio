@@ -10,19 +10,24 @@ export default function Home () {
     return (
         <div className = 'home-page'>
             <img src = {profilePic} alt = '' />
-            <div className='intro'> Hi! I'm Taharia Begum! </div>
-    
-            <p> I am an aspiring full-stack developer. </p>
 
-            <br/>
-            
-            <div className = 'buttons'> 
-                <button className = 'home-buttons'>
-                    <a href = 'https://www.linkedin.com/in/taharia-begum/'> LinkedIn  </a>
-                </button>
-                <button className = 'home-buttons'> GitHub </button>
-                <button className = 'home-buttons'> Resume </button>
-            </div> 
+            <div className = 'intro-content'>
+                <h3 className='intro'> Hi, I'm Taharia Begum! </h3>
+                
+                <p> I am an aspiring full-stack developer. </p>
+                
+                <div className = 'buttons'> 
+                    <button className = 'home-buttons'>
+                        <a href = 'https://www.linkedin.com/in/taharia-begum/'> LinkedIn  </a>
+                    </button>
+                    <button className = 'home-buttons'> 
+                        <a href = 'https://github.com/tahariabegum'> GitHub </a>
+                    </button>
+                    <button className = 'home-buttons'> 
+                        Resume 
+                    </button>
+                </div> 
+            </div>
         </div>
     )
 }
