@@ -49,6 +49,10 @@ export default function BookNook() {
                         </p>
                     
                 </div>
+
+                <div className = 'booknook-button'>  
+                    <a href = 'https://booknook-frontend.onrender.com/profile'> Check Out the Book Nook </a> 
+                </div>
             </div>
         </div>
     )
