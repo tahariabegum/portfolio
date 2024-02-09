@@ -8,6 +8,8 @@ import Home from './Components/Home'
 import AboutMe from './Components/AboutMe'
 
 import Education from './Components/Education'
+import WorkHistory from './Components/WorkHistory'
+import Skills from './Components/Skills'
 
 import './App.css'
 
@@ -22,6 +24,8 @@ function App() {
           <Route path = '/aboutme' element = { <AboutMe /> } />
           <Route path = '/project' element = { <Project /> } />
           <Route path = '/education' element = {<Education />} />
+          <Route path = '/workhistory' element = {<WorkHistory />} />
+          <Route path = '/skills' element = {<Skills />} />
         </Routes>
       {/* <Footer /> */}
     </>

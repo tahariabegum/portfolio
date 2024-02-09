@@ -1,0 +1,50 @@
+.project {
+    display: flex; 
+    justify-content: center;
+    font-size: 50px; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    color: #122620;
+    padding: 20px; 
+}
+
+.booknook-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    border: 1px solid; 
+    width: 500px; 
+    gap: 20px; 
+}
+
+.booknook-cont a {
+    text-decoration: none;
+    display: flex; 
+    flex-direction: column;
+    flex-direction: row;
+    gap: 20px; 
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* .booknook-cont a:hover{
+    background-color: #D6AD60;
+    color: #F4EBD0
+} */
+
+
+.booknook {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    color: #122620;
+}
+
+.booknook-pic {
+    margin-top: 20px; 
+    width: 450px; 
+    height: auto; 
+
+}

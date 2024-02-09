@@ -13,7 +13,7 @@ export default function Nav () {
                 <div className = 'links'>  About Me </div>
             </Link>
 
-            <Link to = '/projects'> 
+            <Link to = '/project'> 
                 <div className = 'links'> Projects </div> 
             </Link>
         </div>
