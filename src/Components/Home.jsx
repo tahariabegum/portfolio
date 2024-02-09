@@ -10,12 +10,12 @@ export default function Home () {
 
     return (
         <div className = 'home-page'>
-            <img src = {profilePic} alt = '' />
+            <img src = {profilePic} alt = '' className = 'prof-pic' />
 
             <div className = 'intro-content'>
                 <h3 className='intro'> Hi, I'm Taharia Begum! </h3>
                 
-                <p> I am an aspiring full-stack developer. </p>
+                <p> *Under Construction* </p>
                 
                 <div className = 'buttons'> 
                     <button className = 'home-buttons'>

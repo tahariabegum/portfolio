@@ -7,6 +7,8 @@ import Project from './Components/Project'
 import Home from './Components/Home'
 import AboutMe from './Components/AboutMe'
 
+import Education from './Components/Education'
+
 import './App.css'
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
           <Route path = '/' element = { <Home /> } />
           <Route path = '/aboutme' element = { <AboutMe /> } />
           <Route path = '/project' element = { <Project /> } />
+          <Route path = '/education' element = {<Education />} />
         </Routes>
       {/* <Footer /> */}
     </>

@@ -24,6 +24,7 @@ export default function AboutMe() {
                     <a href = '/skills'> Skills </a>
                 </div>
             </div>
+            
         </div>
 
        
