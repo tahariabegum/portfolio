@@ -2,7 +2,7 @@ import './ProjectsLink.css'
 
 export default function BookNook() {
     return ( 
-        <div>
+        <div >
             <div className = 'booknook-title'>
 
                 <div className = 'booknook'>
@@ -14,15 +14,17 @@ export default function BookNook() {
                 </div>
 
             </div>
-            <div>
-                <p>
-                    The Book Nook was my third and final project for PerScholas, which was a combination of everything I learned during the course. 
-                    The requirements for the third project was to utilize MERN stack to build a webpage. 
-                    Utilizing the foundation laid by my second project, I enhanced and expanded the capabilities by integrating the MERN stack.  
-                </p>
+            <div className = 'booknook-container'>
+                <div className = 'booknook-content'>
+                    <p className = 'booknook-content'>
+                        The Book Nook was my third and final project for PerScholas, which was a combination of everything I learned during the course. 
+                        The requirements for the third project was to utilize MERN stack to build a webpage. 
+                        Utilizing the foundation laid by my second project, I enhanced and expanded the capabilities by integrating the MERN stack.  
+                    </p>
+                </div>
 
-                <div>
-                    <h4> THE IDEA </h4>
+                <div className = 'booknook-content'>
+                    <h4 className = 'subtitles'> THE IDEA </h4>
                     <p> 
                         My love and passion for reading and wanting to journal my literary journey gave me the idea to create BookNook. 
                         Given the opportunity to create any webpage I jumped at the idea to create a platform that would allow me to create a blog documenting the book I have read.
@@ -30,8 +32,8 @@ export default function BookNook() {
                     </p>
                 </div>
 
-                <div>
-                    <h4> TECHNOLOGIES USED </h4>
+                <div className = 'booknook-content'>
+                    <h4 className = 'subtitles'> TECHNOLOGIES USED </h4>
                     <ul> 
                         <li> This webpage is created using React.js for frontend. </li>
                         <li> This webpage is created using Node.js and Express.js for backend. </li>

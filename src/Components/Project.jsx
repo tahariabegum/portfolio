@@ -9,9 +9,9 @@ export default function Project () {
                 P R O J E C T S  
             </div>
             <div>
-                <div className = 'booknook-cont'> 
+                <div className = 'booknook-cont'>
+                    <a href = '/booknook'> 
                     <img src = {booknook} className = 'booknook-pic' />
-                    <a href = '/booknook'>
                     
                         <div className = 'booknook'>
                             B O O K 
