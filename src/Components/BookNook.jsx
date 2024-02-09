@@ -2,7 +2,7 @@ import './ProjectsLink.css'
 
 export default function BookNook() {
     return ( 
-        <div >
+        <div>
             <div className = 'booknook-title'>
 
                 <div className = 'booknook'>
@@ -23,8 +23,10 @@ export default function BookNook() {
                     </p>
                 </div>
 
-                <div className = 'booknook-content'>
-                    <h4 className = 'subtitles'> THE IDEA </h4>
+                <div className = 'idea-cont'>
+                    <div className = 'subtitles'>
+                        <div> T H E </div> <div > I D E A </div>
+                    </div>
                     <p> 
                         My love and passion for reading and wanting to journal my literary journey gave me the idea to create BookNook. 
                         Given the opportunity to create any webpage I jumped at the idea to create a platform that would allow me to create a blog documenting the book I have read.
@@ -32,14 +34,20 @@ export default function BookNook() {
                     </p>
                 </div>
 
-                <div className = 'booknook-content'>
-                    <h4 className = 'subtitles'> TECHNOLOGIES USED </h4>
-                    <ul> 
-                        <li> This webpage is created using React.js for frontend. </li>
-                        <li> This webpage is created using Node.js and Express.js for backend. </li>
-                        <li> The Google Book API is used to fetch books by title, author or ISBN </li>
-                        <li> Data is stored in MongoDB with Mongoose </li>
-                    </ul>
+                <div className = 'tech-cont'>
+                    <div className = 'subtitles'>
+                        <div> T E C H N O L O G I E S </div> <div> U S E D </div>
+                    </div>
+                        <p> 
+                            This webpage is created using React.js for frontend. 
+                            <br/>
+                            This webpage is created using Node.js and Express.js for backend. 
+                            <br/>
+                            The Google Book API is used to fetch books by title, author or ISBN 
+                            <br/>
+                            Data is stored in MongoDB with Mongoose 
+                        </p>
+                    
                 </div>
             </div>
         </div>

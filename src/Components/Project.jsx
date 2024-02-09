@@ -11,16 +11,23 @@ export default function Project () {
             <div>
                 <div className = 'booknook-cont'>
                     <a href = '/booknook'> 
-                    <img src = {booknook} className = 'booknook-pic' />
+                    <div className = 'content-container'>
+                        <img src = {booknook} className = 'booknook-pic' />
+                        <div className = 'title-cont'>
+                            <div className = 'booknook-name'>
+                                B O O K 
+                                
+                            </div>
+                            <div className = 'booknook-name'>
+                                N O O K 
+                            </div> 
+                        </div>
+                    </div>
                     
-                        <div className = 'booknook'>
-                            B O O K 
-                        </div>
-                        <div className = 'booknook'>
-                            N O O K 
-                        </div>
+                    <p className = 'book-ptag'> 
+                        Third project for PerScholas utilizing MERN stack and Google Book API  
+                    </p>
                     </a>
-                    <p> Third project for PerScholas utilizing MERN stack and Google Book API  </p>
                 </div>
             </div>
         </div>
