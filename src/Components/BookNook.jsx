@@ -29,7 +29,7 @@ export default function BookNook() {
                     </div>
                     <p> 
                         My love and passion for reading and wanting to journal my literary journey gave me the idea to create BookNook. 
-                        Given the opportunity to create any webpage I jumped at the idea to create a platform that would allow me to create a blog documenting the book I have read.
+                        Given the opportunity to create any webpage I jumped at the idea of creating a platform that would allow me to design a blog documenting the books I have read.
                         This project not only aligns with my personal interests but also showcases the skills and knowledge I have acquired over the course of this program. 
                     </p>
                 </div>
@@ -39,13 +39,13 @@ export default function BookNook() {
                         <div> T E C H N O L O G I E S </div> <div> U S E D </div>
                     </div>
                         <p> 
-                            This webpage is created using React.js for frontend. 
+                            This webpage is created using React.js for frontend
                             <br/>
-                            This webpage is created using Node.js and Express.js for backend. 
+                            Node.js and Express.js were used for the backend
                             <br/>
                             The Google Book API is used to fetch books by title, author or ISBN 
                             <br/>
-                            Data is stored in MongoDB with Mongoose 
+                            Data is stored in MongoDB with Mongoose database
                         </p>
                     
                 </div>
