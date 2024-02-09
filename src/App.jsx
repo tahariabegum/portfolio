@@ -11,6 +11,8 @@ import Education from './Components/Education'
 import WorkHistory from './Components/WorkHistory'
 import Skills from './Components/Skills'
 
+import BookNook from './Components/BookNook'
+
 import './App.css'
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
           <Route path = '/education' element = {<Education />} />
           <Route path = '/workhistory' element = {<WorkHistory />} />
           <Route path = '/skills' element = {<Skills />} />
+          <Route path = '/booknook' element = {<BookNook />} />
         </Routes>
       {/* <Footer /> */}
     </>
