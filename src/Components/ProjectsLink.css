@@ -54,7 +54,6 @@
     color: #122620;
     display: block;
     text-decoration: none;
-    opacity: 0.7;
     transition: color ease;
     cursor: pointer;
 }
