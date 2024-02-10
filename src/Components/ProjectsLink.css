@@ -41,7 +41,8 @@
 }
 
 .booknook-button {
-    background-color: #122620; 
+    background-color: #D6AD60; 
+    
     margin-bottom: 20px; 
     
     width: 240px;
@@ -50,7 +51,7 @@
 .booknook-button a {
     text-decoration: none;
     padding: 10px; 
-    color: #D6AD60;
+    color: #122620;
     display: block;
     text-decoration: none;
     opacity: 0.7;
@@ -59,8 +60,8 @@
 }
 
 .booknook-button a:hover {
-    background-color: #D6AD60; 
-    color: #122620;
+    background-color: #122620; 
+    color: #D6AD60;
     
 }
 
