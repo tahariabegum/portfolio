@@ -39,13 +39,13 @@ export default function BookNook() {
                         <div> T E C H N O L O G I E S </div> <div> U S E D </div>
                     </div>
                         <p> 
-                            This webpage is created using React.js for frontend
+                            This webpage is created using <em> React.js </em> for frontend
                             <br/>
-                            Node.js and Express.js were used for the backend
+                            <em> Node.js </em> and <em> Express.js </em> were used for backend
                             <br/>
-                            The Google Book API is used to fetch books by title, author or ISBN 
+                            The <em> Google Book API </em> is used to fetch books by title, author or ISBN 
                             <br/>
-                            Data is stored in MongoDB with Mongoose database
+                            Data is stored in <em> MongoDB with Mongoose </em> database
                         </p>
                     
                 </div>
