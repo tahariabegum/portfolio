@@ -31,6 +31,32 @@
     margin-left: 50px; 
 }
 
+.perscholas-button {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #122620 ;
+    color: #F4EBD0;
+    padding: 10px 20px; 
+    margin-right: 20px; 
+    margin-top: 15px;
+    /* margin: 20px; */
+    border: none; 
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.perscholas-button a {
+    text-decoration: none;
+    color: #F4EBD0;
+    display: block; 
+
+}
+
+.perscholas-button:hover, .perscholas-button a:hover {
+    background-color: #D6AD60; 
+    color: #122620;
+}
+
 .date {
     margin-top: 0px; 
 }

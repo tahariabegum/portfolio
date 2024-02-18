@@ -2,6 +2,7 @@ import './AboutMeLinks.css'
 
 import perscholas from './perscholas.jpeg'
 import wsu from './wsu.png'
+import certificate from './Begum.jpg'
 
 export default function Education () {
     return (
@@ -14,6 +15,9 @@ export default function Education () {
                         <h4 className = 'school-name'> P E R S C H O L A S </h4>
                         <p className = 'date'> October 2023 - February 2024 </p>
                         <p> Software Engineering </p>
+                        <button className = 'perscholas-button'>
+                            <a href = {certificate} > Certificate </a> 
+                        </button>
                     </div>
             </div>
 
